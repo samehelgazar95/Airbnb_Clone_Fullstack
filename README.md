@@ -13,10 +13,10 @@ The Airbnb Fullstack Clone project aims to replicate Airbnb's functionality, cov
 - API: RESTful APIs
 - Server: Flask development server, possibly NGINX and HAProxy for production.
 
-**Milestones include:**
-1- Model Creation and Testing Console (JSON)
-2- Static Web Development (HTML/CSS)
-3- Database Setup with MySQL and SQLAlchemy
+**Milestones include:**  
+1- Model Creation and Testing Console (JSON)  
+2- Static Web Development (HTML/CSS)  
+3- Database Setup with MySQL and SQLAlchemy  
 4- Dynamic Web Development and API Implementation with Flask and JavaScript.
 
 Additionally, unittests were conducted to ensure the system's reliability and robustness before configuring the firewall. This project offers hands-on experience in integrating various components into a unified system.
@@ -45,9 +45,11 @@ graph TD;
 $ sudo apt-get install python3.8-venv
 $ python3 -m venv venv
 $ source venv/bin/activate
+--------------------
 
 **Install Flask**
 $ pip3 install Flask
+--------------------
 
 **Install MySQLdb module version 2.0.x***
 $ sudo apt-get install python3-dev
@@ -61,6 +63,7 @@ $ python3
 >>> import MySQLdb
 >>> MySQLdb.version_info
 (2, 0, 3, 'final', 0)
+--------------------
 
 **Install SQLAlchemy module version 1.4.x***
 $ sudo pip3 install SQLAlchemy
@@ -68,14 +71,17 @@ $ sudo pip3 install SQLAlchemy
 $ python3
 >>> import sqlalchemy
 >>> sqlalchemy.__version__
+--------------------
 
 **Install flassger and flask_CORS***
 $ sudo apt-get install -y python3-lxml
 $ sudo pip3 install flask_cors
 $ sudo pip3 install flasgger
+--------------------
 
 **Create some data using mysql REPL***
 >>> Copy the sql lines in the dump.sql file and run them in the mysql REPL.
+--------------------
 ```
 
 **2- Run the api server**
