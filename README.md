@@ -1,4 +1,4 @@
-# Airbnb Fullstack Clone
+# HBNB - Airbnb Fullstack Clone
 
 ![demo1](/assets/demo1_zswgiq5mf.png)
 ![demo2](/assets/demo2_gumvjhh25.png)
