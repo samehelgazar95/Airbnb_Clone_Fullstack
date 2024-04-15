@@ -14,12 +14,12 @@ The Airbnb Fullstack Clone project aims to replicate Airbnb's functionality, cov
 - Server: Flask development server, possibly NGINX and HAProxy for production.
 
 **Milestones include:**
-
 1- Model Creation and Testing Console (JSON)
 2- Static Web Development (HTML/CSS)
 3- Database Setup with MySQL and SQLAlchemy
 4- Dynamic Web Development and API Implementation with Flask and JavaScript.
-Additionally, basic firewall configurations ensure security. This project offers hands-on experience in integrating various components into a unified system.
+
+Additionally, unittests were conducted to ensure the system's reliability and robustness before configuring the firewall. This project offers hands-on experience in integrating various components into a unified system.
 
 ## Entity Relationship Diagram (ERD)
 
