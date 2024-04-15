@@ -36,9 +36,9 @@ graph TD;
     User -- "One to Many" --> Review;
 ```
 
-## In case you wanna try it locally:
+## If You Want to Try It Locally:
 
-**1- Environment setup to run it locally:**
+**1- Local Environment Setup::**
 
 ```code
 **Install and activate venv**
@@ -84,21 +84,21 @@ $ sudo pip3 install flasgger
 --------------------
 ```
 
-**2- Run the api server**
+**2- Start the API Server**
 
 ```code
 HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_HOST=0.0.0.0 HBNB_API_PORT=5001 python3 -m api.v1.app
 ```
 
-**3- Run the web dynamic server based on the DB**
+**3- Launch the Dynamic Web Server Based on the Database**
 
 ```code
 HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db python3 -m web_dynamic.hbnb
 ```
 
-**3- Finally browse it locally: http://127.0.0.1:5000/hbnb**
+**4- Finally, Browse It Locally: [http://127.0.0.1:5000/hbnb](http://127.0.0.1:5000/hbnb)**
 
-## In case you just wanna test the models:
+## If You Just Want to Test the Models:
 
 ```code
 **You can use file.json as a storage and console.py to CRUD models**
