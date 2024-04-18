@@ -7,8 +7,8 @@
 
 The Airbnb Fullstack Clone project aims to replicate Airbnb's functionality, covering frontend, backend, database, API, and server setup. It utilizes:
 
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python (Flask)
+- Frontend: HTML, CSS, JavaScript, JQuery
+- Backend: Python, Flask
 - Database: MySQL, SQLAlchemy
 - API: RESTful APIs
 - Server: Flask development server, possibly NGINX and HAProxy for production.
@@ -38,7 +38,8 @@ graph TD;
 
 ## If You Want to Try It Locally:
 
-**1- Local Environment Setup::**
+**1- Local Environment Setup:**
+    - If you got any errors during installation, try use sudo.
 
 ```code
 **Install and activate venv**
@@ -52,12 +53,12 @@ $ pip3 install Flask
 --------------------
 
 **Install MySQLdb module version 2.0.x***
-$ sudo apt-get install python3-dev
-$ sudo apt-get install libmysqlclient-dev
-$ sudo apt-get install zlib1g-dev
-$ sudo pip3 install mysqlclient
-$ sudo pip3 install SQLAlchemy
-$  sudo apt-get install python3-mysqldb
+$ apt-get install python3-dev
+$ apt-get install libmysqlclient-dev
+$ apt-get install zlib1g-dev
+$ pip3 install mysqlclient
+$ pip3 install SQLAlchemy
+$ apt-get install python3-mysqldb
 ...
 $ python3
 >>> import MySQLdb
@@ -66,7 +67,7 @@ $ python3
 --------------------
 
 **Install SQLAlchemy module version 1.4.x***
-$ sudo pip3 install SQLAlchemy
+$ pip3 install SQLAlchemy
 ...
 $ python3
 >>> import sqlalchemy
@@ -74,9 +75,9 @@ $ python3
 --------------------
 
 **Install flassger and flask_CORS***
-$ sudo apt-get install -y python3-lxml
-$ sudo pip3 install flask_cors
-$ sudo pip3 install flasgger
+$ apt-get install -y python3-lxml
+$ pip3 install flask_cors
+$ pip3 install flasgger
 --------------------
 
 **Create some data using mysql REPL***
@@ -101,7 +102,7 @@ HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost H
 ## If You Just Want to Test the Models:
 
 ```code
-**You can use file.json as a storage and console.py to CRUD models**
 $ ./console.py
-**And then have fun in the customized REPL, file.json will be created automatically.**
+To use `file.json` as a storage and `console.py` to CRUD models:
+You can then explore the customized REPL, with `file.json` created automatically.
 ```

@@ -1,0 +1,131 @@
+.filters {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: flex;
+}
+
+.filters button {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  background-color: #ff5a5f;
+  color: #ffffff;
+  height: 48px;
+  width: 20%;
+  border: none;
+  border-radius: 4px;
+}
+
+.filters button:hover {
+  opacity: 90%;
+}
+
+.filters .phone {
+  display: none;
+}
+
+.filters .locations,
+.filters .amenities {
+  height: 100%;
+  width: 25%;
+  padding-left: 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.popover {
+  background-color: #fafafa;
+  width: 100%;
+  list-style: none;
+  border: 1px solid #dddddd;
+  padding-left: 40px;
+  padding-top: 20px;
+  border-radius: 4px;
+  z-index: 1;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.filters .locations {
+  border-right: 1px solid #dddddd;
+}
+
+.filters .locations .popover ul {
+  list-style: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.filters .amenities .popover li {
+  padding-bottom: 5px;
+}
+
+.filters .amenities .popover {
+  padding-bottom: 20px;
+}
+
+.filters .locations:hover > .popover {
+  display: block;
+  cursor: pointer;
+}
+
+.filters .amenities:hover > .popover {
+  display: block;
+  cursor: pointer;
+}
+
+.filters .filters h3 {
+  font-weight: 600;
+}
+
+.filters .filters h4 {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .filters button,
+  .filters .locations,
+  .filters .amenities {
+    display: none;
+  }
+
+  .filters .phone {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+  }
+
+  .filters .phone div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .filters .phone div h3 {
+    font-size: 20px;
+  }
+
+  .filters .phone div h2 {
+    font-size: 15px;
+  }
+
+  .filters .phone i {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+    font-size: 35px;
+    color: #ff5a5f;
+  }
+}
