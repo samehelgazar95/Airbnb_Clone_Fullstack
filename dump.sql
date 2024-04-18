@@ -1,7 +1,3 @@
--- If you have any errors while loading this file using command line,
--- Just copy the below lines and run them in sql REPL
--- it will create the data you need to test the project
-
 DROP DATABASE IF EXISTS hbnb_dev_db;
 
 CREATE DATABASE IF NOT EXISTS hbnb_dev_db;
