@@ -39,7 +39,6 @@ graph TD;
 ## If You Want to Try It Locally:
 
 **1- Local Environment Setup:**
-    - If you got any errors during installation, try use sudo.
 
 ```code
 **Install and activate venv**
