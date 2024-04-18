@@ -47,34 +47,27 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 --------------------
 
-**Install Flask**
-$ pip3 install Flask
---------------------
-
-**Install MySQLdb module version 2.0.x***
-$ apt-get install python3-dev
-$ apt-get install libmysqlclient-dev
-$ apt-get install zlib1g-dev
+**Install MySQLdb module version 2.0.x && SQLAlchemy module version 1.4.x***
+$ sudo pt-get install python3-dev
+$ sudo apt-get install libmysqlclient-dev
+$ sudo apt-get install zlib1g-dev
+$ sudo apt-get install pkg-config
+$ sudo apt-get install python3-mysqldb
 $ pip3 install mysqlclient
 $ pip3 install SQLAlchemy
-$ apt-get install python3-mysqldb
 ...
 $ python3
 >>> import MySQLdb
 >>> MySQLdb.version_info
 (2, 0, 3, 'final', 0)
 --------------------
-
-**Install SQLAlchemy module version 1.4.x***
-$ pip3 install SQLAlchemy
-...
-$ python3
 >>> import sqlalchemy
 >>> sqlalchemy.__version__
 --------------------
 
-**Install flassger and flask_CORS***
-$ apt-get install -y python3-lxml
+**Install flask, flassger and flask_CORS***
+$ pip3 install Flask
+$ sudo apt-get install -y python3-lxml
 $ pip3 install flask_cors
 $ pip3 install flasgger
 --------------------
